@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #1f3c88;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #1f3c88;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.produk-section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.produk-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produk-card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.produk-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn-small {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ff6600;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.testimoni {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.sertifikat {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #1f3c88;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
